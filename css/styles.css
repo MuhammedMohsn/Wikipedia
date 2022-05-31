@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    padding:0px
+}
+.logo_img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+form{
+    width: 90%;
+    height:100px;
+    background-color: black;
+}
+.search_btn{
+    width: 80px;
+    background-color:blue
+}
+.loading{
+    height:300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color:red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    margin-top:20px;
+    font-size: larger;
+}
+.results{
+    width: 100%;
+    height: fit-content;
+
+}
+.card{
+    width: 30%;
+    height:fit-content;
+    border:5px solid red !important; 
+    margin-bottom: 10px;
+}
